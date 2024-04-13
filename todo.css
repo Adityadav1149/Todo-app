@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+  /* text-align: center; */
+}
+
+h1{
+  padding: 10px 0px;
+  margin: 10px 0px;
+  font-size: 40px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+
+.todo-Container, .grid-Container{
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  justify-content: center;
+  margin-top: 10px;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+#todoText, #todoDate{
+  padding: 10px 5px;
+  font-size: 20px;
+}
+
+.box{
+  margin: 10px 0px;
+  padding: 10px 0px;
+  justify-content: center;
+}
+
+.tododelete{
+  background: #3d0404;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.todoadd{
+  background: #339d29;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+span{
+  font-size: 20px;
+  padding: 10px 5px;
+}
